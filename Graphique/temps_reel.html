@@ -10,7 +10,47 @@
     <div id="menu">Graphique Temps Réel</div>
 </header>
 <body>
-    <div id="containerCapteurs">
+<div id="container">
+    <div id="caracteristiques">
+        Caractéristiques
+        <button name="ajouter" id="ajouter" type="submit">+</button>
     </div>
+
+    <div id="legendes">
+            <div class="legende">
+                <div class="selector">
+                    <select name="selectCapteur1">
+                        <option value="">Votre capteur</option>
+                        <option value="optionCapteur1">Capteur n°1</option>
+                        <option value="optionCapteur2">Capteur n°2</option>
+                    </select>
+                    <select name="selectDonnee1">
+                        <option value="">Votre donnée</option>
+                        <option value="optionDonnee1">Capteur n°1</option>
+                        <option value="optionDonnee2">Capteur n°2</option>
+                    </select>
+                </div>
+                <!--TODO : Datepicker à ajouter -->
+                <div class="statistics">
+                    <div>
+                        <label>Moyenne : </label>
+                        <span class="value">20</span>
+                    </div>
+                    <div>
+                        <label>Valeur Min : </label>
+                        <span class="value">20</span>
+                    </div>
+                    <div>
+                        <label>Valeur Max : </label>
+                        <span class="value">20</span>
+                    </div>
+                    <div>
+                        <label>Ecart Type : </label>
+                        <span class="value">20</span>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
 </body>
 </html>
