@@ -2,6 +2,7 @@
 body {
     padding : 0;
     margin : 0;
+    height : 100vh;
     font-family : Raleway;
     background-color: #ECECDF;
 }
@@ -17,12 +18,41 @@ body {
     padding-bottom : 0.8em;
 }
 
-#containerCapteurs{
-    display: flex;
-    flex-direction: column;
-    height : 100vh;
-    width: fit-content;
-    border : 1px solid black;
-    border-left : none;
+#container {
+    height : 85vh;
+    width : 250px;
+    border : 2px solid #1B2A46;
+    margin : 20px;
+}
+
+#caracteristiques{
+    padding : 13px;
+    border-bottom : 2px solid #1B2A46;
+}
+
+#ajouter {
+    margin-left : 70px;
+    color: green;
+}
+
+#legendes {
 
 }
+
+.legende {
+    margin-top : 20px;
+}
+
+.selector{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.statistics {
+    margin : 15px;
+}
+
+
